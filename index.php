@@ -12,16 +12,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esercizo php!ß</title>
+    <title>Esercizo php!</title>
 </head>
 <body>
 
-<h1>Inserisci: censore= "parola che vuoi censurare" all'interno dell'url per censurare una parola a tua scelta</h1>
+<h1>Esercizio PHP</h1>
 
-
-
+<h4>Inserisci: censore= "parola che vuoi censurare" all'interno dell'url per censurare una parola a tua scelta</h4>
 <p>
-    <?php echo $text . strlen($text) ?>
+    <?php echo $text ?>
+</p>
+
+<hr>
+
+<h4>Contatore parole:</h4>
+<p>
+    <?php echo strlen($text) ?>
 </p>
 
 
